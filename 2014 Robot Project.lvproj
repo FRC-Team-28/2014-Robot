@@ -115,6 +115,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Drive Code" Type="Folder">
 			<Item Name="Drive Main.vi" Type="VI" URL="../Drive Code/Drive Main.vi"/>
+			<Item Name="LED Strip.vi" Type="VI" URL="../Drive Code/LED Strip.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
