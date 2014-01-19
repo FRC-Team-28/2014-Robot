@@ -106,15 +106,18 @@ DirectoryIndex index.htm
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
-			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+		</Item>
+		<Item Name="Support Code" Type="Folder">
+			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="LED Strip.vi" Type="VI" URL="../Drive Code/LED Strip.vi"/>
+			<Item Name="Controller.vi" Type="VI" URL="../Controller.vi"/>
 		</Item>
 		<Item Name="Arm Code" Type="Folder">
 			<Item Name="Arm Main.vi" Type="VI" URL="../Arm Code/Arm Main.vi"/>
 		</Item>
 		<Item Name="Drive Code" Type="Folder">
 			<Item Name="Drive Main.vi" Type="VI" URL="../Drive Code/Drive Main.vi"/>
-			<Item Name="LED Strip.vi" Type="VI" URL="../Drive Code/LED Strip.vi"/>
 		</Item>
 		<Item Name="Vision Code" Type="Folder">
 			<Item Name="Support" Type="Folder">
