@@ -111,8 +111,6 @@ DirectoryIndex index.htm
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Controller.vi" Type="VI" URL="../Controller.vi"/>
-			<Item Name="Controller 1.vi" Type="VI" URL="../Controller 1.vi"/>
-			<Item Name="Controller 2.vi" Type="VI" URL="../Controller 2.vi"/>
 			<Item Name="Set LED.vi" Type="VI" URL="../Set LED.vi"/>
 		</Item>
 		<Item Name="Arm Code" Type="Folder">
@@ -687,6 +685,8 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Set LED Main.vi" Type="VI" URL="../Set LED Main.vi"/>
 			<Item Name="Set LED Indicator.vi" Type="VI" URL="../Set LED Indicator.vi"/>
+			<Item Name="Controller 1.vi" Type="VI" URL="../Controller 1.vi"/>
+			<Item Name="Controller 2.vi" Type="VI" URL="../Controller 2.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
