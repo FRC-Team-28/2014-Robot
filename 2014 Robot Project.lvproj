@@ -111,6 +111,8 @@ DirectoryIndex index.htm
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Controller.vi" Type="VI" URL="../Controller.vi"/>
+			<Item Name="Controller 1.vi" Type="VI" URL="../Controller 1.vi"/>
+			<Item Name="Controller 2.vi" Type="VI" URL="../Controller 2.vi"/>
 			<Item Name="Set LED.vi" Type="VI" URL="../Set LED.vi"/>
 		</Item>
 		<Item Name="Arm Code" Type="Folder">
@@ -683,10 +685,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="Set LED Main.vi" Type="VI" URL="../Set LED Main.vi"/>
 			<Item Name="Set LED Indicator.vi" Type="VI" URL="../Set LED Indicator.vi"/>
 		</Item>
