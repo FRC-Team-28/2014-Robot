@@ -165,6 +165,7 @@ DirectoryIndex index.htm
 			<Item Name="Target Detection.vi" Type="VI" URL="../Vision Code/Target Detection.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Arm Main copy.vi" Type="VI" URL="../Arm Code/Arm Main copy.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
