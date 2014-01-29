@@ -123,11 +123,9 @@ DirectoryIndex index.htm
 			<Item Name="Arm Angle.vi" Type="VI" URL="../Arm Code/Arm Angle.vi"/>
 			<Item Name="Arm Sensors OK.vi" Type="VI" URL="../Arm Code/Arm Sensors OK.vi"/>
 			<Item Name="Grabber Control.vi" Type="VI" URL="../Arm Code/Grabber Control.vi"/>
-			<Item Name="Pot init.vi" Type="VI" URL="../Arm Code/Pot init.vi"/>
 			<Item Name="Shoot.vi" Type="VI" URL="../Arm Code/Shoot.vi"/>
 			<Item Name="Arm Limits.vi" Type="VI" URL="../Arm Code/Arm Limits.vi"/>
 			<Item Name="Arm Motor.vi" Type="VI" URL="../Arm Code/Arm Motor.vi"/>
-			<Item Name="Arm Angle Calibrator.vi" Type="VI" URL="../../../Dropbox/arm control 1/Arm Angle Calibrator.vi"/>
 		</Item>
 		<Item Name="Drive Code" Type="Folder">
 			<Item Name="Drive Main.vi" Type="VI" URL="../Drive Code/Drive Main.vi"/>
@@ -155,7 +153,6 @@ DirectoryIndex index.htm
 			<Item Name="Target Detection.vi" Type="VI" URL="../Vision Code/Target Detection.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Arm Main copy.vi" Type="VI" URL="../Arm Code/Arm Main copy.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -752,10 +749,6 @@ DirectoryIndex index.htm
 			<Item Name="Set LED Indicator.vi" Type="VI" URL="../Set LED Indicator.vi"/>
 			<Item Name="Controller 1.vi" Type="VI" URL="../Controller 1.vi"/>
 			<Item Name="Controller 2.vi" Type="VI" URL="../Controller 2.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
