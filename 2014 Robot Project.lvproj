@@ -126,6 +126,7 @@ DirectoryIndex index.htm
 			<Item Name="Shoot.vi" Type="VI" URL="../Arm Code/Shoot.vi"/>
 			<Item Name="Arm Limits.vi" Type="VI" URL="../Arm Code/Arm Limits.vi"/>
 			<Item Name="Arm Motor.vi" Type="VI" URL="../Arm Code/Arm Motor.vi"/>
+			<Item Name="Arm Angle Calibrator.vi" Type="VI" URL="../Arm Code/Arm Angle Calibrator.vi"/>
 		</Item>
 		<Item Name="Drive Code" Type="Folder">
 			<Item Name="Drive Main.vi" Type="VI" URL="../Drive Code/Drive Main.vi"/>
