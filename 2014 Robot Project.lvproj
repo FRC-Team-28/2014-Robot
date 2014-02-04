@@ -30,7 +30,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">10</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -134,8 +133,8 @@ DirectoryIndex index.htm
 			<Item Name="Safe Stop.vi" Type="VI" URL="../Arm Code/Safe Stop.vi"/>
 		</Item>
 		<Item Name="Drive Code" Type="Folder">
-			<Item Name="Drive Main.vi" Type="VI" URL="../Drive Code/Drive Main.vi"/>
 			<Item Name="Rotation.vi" Type="VI" URL="../Drive Code/Rotation.vi"/>
+			<Item Name="Movement.vi" Type="VI" URL="../Drive Code/Movement.vi"/>
 		</Item>
 		<Item Name="Vision Code" Type="Folder">
 			<Item Name="Support" Type="Folder">
