@@ -137,23 +137,10 @@ DirectoryIndex index.htm
 			<Item Name="Movement.vi" Type="VI" URL="../Drive Code/Movement.vi"/>
 		</Item>
 		<Item Name="Vision Code" Type="Folder">
-			<Item Name="Support" Type="Folder">
-				<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Vision Code/Support/Aspect Ratio Score.vi"/>
-				<Item Name="Calibration Helper.vi" Type="VI" URL="../Vision Code/Support/Calibration Helper.vi"/>
-				<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../Vision Code/Support/Compute DistanceToTarget.vi"/>
-				<Item Name="Compute Target Distances.vi" Type="VI" URL="../Vision Code/Support/Compute Target Distances.vi"/>
-				<Item Name="Label Targets.vi" Type="VI" URL="../Vision Code/Support/Label Targets.vi"/>
-				<Item Name="Normalize Path.vi" Type="VI" URL="../Vision Code/Support/Normalize Path.vi"/>
-				<Item Name="Process Image for Target.vi" Type="VI" URL="../Vision Code/Support/Process Image for Target.vi"/>
-				<Item Name="Rank HV combos.vi" Type="VI" URL="../Vision Code/Support/Rank HV combos.vi"/>
-				<Item Name="Rectangularity Score.vi" Type="VI" URL="../Vision Code/Support/Rectangularity Score.vi"/>
-				<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../Vision Code/Support/Score and Rank Target Objects.vi"/>
-				<Item Name="Separate Particles.vi" Type="VI" URL="../Vision Code/Support/Separate Particles.vi"/>
-				<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Vision Code/Support/Sorted Particle Report.vi"/>
-				<Item Name="TargetType.ctl" Type="VI" URL="../Vision Code/Support/TargetType.ctl"/>
-			</Item>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Code/Vision Processing.vi"/>
+			<Item Name="Ball Detection.vi" Type="VI" URL="../Vision Code/Ball Detection.vi"/>
 			<Item Name="Target Detection.vi" Type="VI" URL="../Vision Code/Target Detection.vi"/>
+			<Item Name="Get Ball Header.vi" Type="VI" URL="../Vision Code/Get Ball Header.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -176,6 +163,8 @@ DirectoryIndex index.htm
 				<Item Name="Convert String to NT Numeric Array Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert String to NT Numeric Array Buffer.vi"/>
 				<Item Name="Convert String to NT String Array Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert String to NT String Array Buffer.vi"/>
 				<Item Name="Convert String to NT String Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Convert String to NT String Buffer.vi"/>
+				<Item Name="Edge Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge Options.ctl"/>
+				<Item Name="Edge Polarity.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Edge Polarity.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Field Data Manager.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data Manager.vi"/>
 				<Item Name="Field Data.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Field Data.ctl"/>
@@ -302,10 +291,15 @@ DirectoryIndex index.htm
 				<Item Name="Handle Dirty Elements.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Dirty Elements.vi"/>
 				<Item Name="Handle Dirty Fields for a Connection.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Handle Dirty Fields for a Connection.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ Circle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Circle"/>
 				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
+				<Item Name="IMAQ Convert Annulus to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Annulus to ROI"/>
+				<Item Name="IMAQ Coordinate System" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Coordinate System"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
+				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
@@ -763,10 +757,28 @@ DirectoryIndex index.htm
 			<Item Name="Set LED Indicator.vi" Type="VI" URL="../Set LED Indicator.vi"/>
 			<Item Name="Controller 1.vi" Type="VI" URL="../Controller 1.vi"/>
 			<Item Name="Controller 2.vi" Type="VI" URL="../Controller 2.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="Process Image for Balls.vi" Type="VI" URL="../Vision Code/Support/Process Image for Balls.vi"/>
+			<Item Name="Score and Rank Objects.vi" Type="VI" URL="../Vision Code/Support/Score and Rank Objects.vi"/>
+			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Vision Code/Support/Aspect Ratio Score.vi"/>
+			<Item Name="Calibration Helper.vi" Type="VI" URL="../Vision Code/Support/Calibration Helper.vi"/>
+			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../Vision Code/Support/Compute DistanceToTarget.vi"/>
+			<Item Name="Compute Target Distances.vi" Type="VI" URL="../Vision Code/Support/Compute Target Distances.vi"/>
+			<Item Name="Label Targets.vi" Type="VI" URL="../Vision Code/Support/Label Targets.vi"/>
+			<Item Name="Process Image for Target.vi" Type="VI" URL="../Vision Code/Support/Process Image for Target.vi"/>
+			<Item Name="Rank HV combos.vi" Type="VI" URL="../Vision Code/Support/Rank HV combos.vi"/>
+			<Item Name="Rectangularity Score.vi" Type="VI" URL="../Vision Code/Support/Rectangularity Score.vi"/>
+			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../Vision Code/Support/Score and Rank Target Objects.vi"/>
+			<Item Name="Separate Particles.vi" Type="VI" URL="../Vision Code/Support/Separate Particles.vi"/>
+			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Vision Code/Support/Sorted Particle Report.vi"/>
+			<Item Name="TargetType.ctl" Type="VI" URL="../Vision Code/Support/TargetType.ctl"/>
+			<Item Name="Label Particles.vi" Type="VI" URL="../Vision Code/Support/Label Particles.vi"/>
+			<Item Name="Compare Rects.vi" Type="VI" URL="../Vision Code/Support/Compare Rects.vi"/>
+			<Item Name="Normalized to Scored.vi" Type="VI" URL="../Vision Code/Support/Normalized to Scored.vi"/>
+			<Item Name="Circle Coverage Score.vi" Type="VI" URL="../Vision Code/Support/Circle Coverage Score.vi"/>
+			<Item Name="Score and Sort Objects.vi" Type="VI" URL="../Vision Code/Support/Score and Sort Objects.vi"/>
+			<Item Name="Fit Circle to Find Ball.vi" Type="VI" URL="../Vision Code/Support/Fit Circle to Find Ball.vi"/>
+			<Item Name="Create Annulus from Rectangle.vi" Type="VI" URL="../Vision Code/Support/Create Annulus from Rectangle.vi"/>
+			<Item Name="Predict Search Rectangle from Particle.vi" Type="VI" URL="../Vision Code/Support/Predict Search Rectangle from Particle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
