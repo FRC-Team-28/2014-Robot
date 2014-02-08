@@ -112,6 +112,7 @@ DirectoryIndex index.htm
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Controller.vi" Type="VI" URL="../Controller.vi"/>
 			<Item Name="Set LED.vi" Type="VI" URL="../Set LED.vi"/>
+			<Item Name="Proportional Control.vi" Type="VI" URL="../Proportional Control.vi"/>
 		</Item>
 		<Item Name="Auto Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Auto Code/Autonomous Independent.vi"/>
