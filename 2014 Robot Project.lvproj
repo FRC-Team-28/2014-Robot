@@ -145,6 +145,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -733,44 +734,38 @@ DirectoryIndex index.htm
 				<Item Name="WPI_UtilitiesFRCAutomaticValuePublisher.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRCAutomaticValuePublisher.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Vision Code/Support/Aspect Ratio Score.vi"/>
+			<Item Name="Circle Coverage Score.vi" Type="VI" URL="../Vision Code/Support/Circle Coverage Score.vi"/>
+			<Item Name="Compare Rects.vi" Type="VI" URL="../Vision Code/Support/Compare Rects.vi"/>
+			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../Vision Code/Support/Compute DistanceToTarget.vi"/>
+			<Item Name="Compute Target Distances.vi" Type="VI" URL="../Vision Code/Support/Compute Target Distances.vi"/>
+			<Item Name="Create Annulus from Rectangle.vi" Type="VI" URL="../Vision Code/Support/Create Annulus from Rectangle.vi"/>
+			<Item Name="Fit Circle to Find Ball.vi" Type="VI" URL="../Vision Code/Support/Fit Circle to Find Ball.vi"/>
+			<Item Name="Label Particles.vi" Type="VI" URL="../Vision Code/Support/Label Particles.vi"/>
+			<Item Name="Label Targets.vi" Type="VI" URL="../Vision Code/Support/Label Targets.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Set LED Main.vi" Type="VI" URL="../Set LED Main.vi"/>
-			<Item Name="Set LED Indicator.vi" Type="VI" URL="../Set LED Indicator.vi"/>
-			<Item Name="Controller 1.vi" Type="VI" URL="../Controller 1.vi"/>
-			<Item Name="Controller 2.vi" Type="VI" URL="../Controller 2.vi"/>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Normalized to Scored.vi" Type="VI" URL="../Vision Code/Support/Normalized to Scored.vi"/>
+			<Item Name="Predict Search Rectangle from Particle.vi" Type="VI" URL="../Vision Code/Support/Predict Search Rectangle from Particle.vi"/>
 			<Item Name="Process Image for Balls.vi" Type="VI" URL="../Vision Code/Support/Process Image for Balls.vi"/>
-			<Item Name="Score and Rank Objects.vi" Type="VI" URL="../Vision Code/Support/Score and Rank Objects.vi"/>
-			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Vision Code/Support/Aspect Ratio Score.vi"/>
-			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../Vision Code/Support/Compute DistanceToTarget.vi"/>
-			<Item Name="Compute Target Distances.vi" Type="VI" URL="../Vision Code/Support/Compute Target Distances.vi"/>
-			<Item Name="Label Targets.vi" Type="VI" URL="../Vision Code/Support/Label Targets.vi"/>
 			<Item Name="Process Image for Target.vi" Type="VI" URL="../Vision Code/Support/Process Image for Target.vi"/>
 			<Item Name="Rank HV combos.vi" Type="VI" URL="../Vision Code/Support/Rank HV combos.vi"/>
 			<Item Name="Rectangularity Score.vi" Type="VI" URL="../Vision Code/Support/Rectangularity Score.vi"/>
+			<Item Name="Score and Rank Objects.vi" Type="VI" URL="../Vision Code/Support/Score and Rank Objects.vi"/>
 			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../Vision Code/Support/Score and Rank Target Objects.vi"/>
+			<Item Name="Score and Sort Objects.vi" Type="VI" URL="../Vision Code/Support/Score and Sort Objects.vi"/>
 			<Item Name="Separate Particles.vi" Type="VI" URL="../Vision Code/Support/Separate Particles.vi"/>
+			<Item Name="Set LED Indicator.vi" Type="VI" URL="../Set LED Indicator.vi"/>
+			<Item Name="Set LED Main.vi" Type="VI" URL="../Set LED Main.vi"/>
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Vision Code/Support/Sorted Particle Report.vi"/>
 			<Item Name="TargetType.ctl" Type="VI" URL="../Vision Code/Support/TargetType.ctl"/>
-			<Item Name="Label Particles.vi" Type="VI" URL="../Vision Code/Support/Label Particles.vi"/>
-			<Item Name="Compare Rects.vi" Type="VI" URL="../Vision Code/Support/Compare Rects.vi"/>
-			<Item Name="Normalized to Scored.vi" Type="VI" URL="../Vision Code/Support/Normalized to Scored.vi"/>
-			<Item Name="Circle Coverage Score.vi" Type="VI" URL="../Vision Code/Support/Circle Coverage Score.vi"/>
-			<Item Name="Score and Sort Objects.vi" Type="VI" URL="../Vision Code/Support/Score and Sort Objects.vi"/>
-			<Item Name="Fit Circle to Find Ball.vi" Type="VI" URL="../Vision Code/Support/Fit Circle to Find Ball.vi"/>
-			<Item Name="Create Annulus from Rectangle.vi" Type="VI" URL="../Vision Code/Support/Create Annulus from Rectangle.vi"/>
-			<Item Name="Predict Search Rectangle from Particle.vi" Type="VI" URL="../Vision Code/Support/Predict Search Rectangle from Particle.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
