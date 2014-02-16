@@ -721,7 +721,6 @@ DirectoryIndex index.htm
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Vision Code/Support/Aspect Ratio Score.vi"/>
-			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Auto Code/Autonomous Independent.vi"/>
 			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../Vision Code/Support/Compute DistanceToTarget.vi"/>
 			<Item Name="Compute Target Distances.vi" Type="VI" URL="../Vision Code/Support/Compute Target Distances.vi"/>
 			<Item Name="Controller 1.vi" Type="VI" URL="../Controller 1.vi"/>
