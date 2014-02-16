@@ -107,6 +107,7 @@ DirectoryIndex index.htm
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
@@ -114,11 +115,6 @@ DirectoryIndex index.htm
 			<Item Name="CompressorControlLoop.vi" Type="VI" URL="../CompressorControlLoop.vi"/>
 			<Item Name="Set LED.vi" Type="VI" URL="../Set LED.vi"/>
 			<Item Name="Proportional Control.vi" Type="VI" URL="../Proportional Control.vi"/>
-		</Item>
-		<Item Name="Auto Code" Type="Folder">
-			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Auto Code/Autonomous Independent.vi"/>
-			<Item Name="Wait for Hot.vi" Type="VI" URL="../Auto Code/Wait for Hot.vi"/>
-			<Item Name="Find Ball.vi" Type="VI" URL="../Auto Code/Find Ball.vi"/>
 		</Item>
 		<Item Name="Arm Code" Type="Folder">
 			<Item Name="Arm Main.vi" Type="VI" URL="../Arm Code/Arm Main.vi"/>
@@ -339,8 +335,8 @@ DirectoryIndex index.htm
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Report Read Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Report Read Error.vi"/>
-				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
 				<Item Name="SD Read Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Name Cache.vi"/>
+				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
 				<Item Name="SD Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Numeric Array.vi"/>
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="SD Write Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Name Cache.vi"/>
@@ -725,6 +721,7 @@ DirectoryIndex index.htm
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
 			</Item>
 			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Vision Code/Support/Aspect Ratio Score.vi"/>
+			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Auto Code/Autonomous Independent.vi"/>
 			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../Vision Code/Support/Compute DistanceToTarget.vi"/>
 			<Item Name="Compute Target Distances.vi" Type="VI" URL="../Vision Code/Support/Compute Target Distances.vi"/>
 			<Item Name="Controller 1.vi" Type="VI" URL="../Controller 1.vi"/>
