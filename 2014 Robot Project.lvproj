@@ -30,6 +30,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">10</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -729,6 +730,10 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -740,8 +745,6 @@ DirectoryIndex index.htm
 			<Item Name="Rectangularity Score.vi" Type="VI" URL="../Vision Code/Support/Rectangularity Score.vi"/>
 			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../Vision Code/Support/Score and Rank Target Objects.vi"/>
 			<Item Name="Separate Particles.vi" Type="VI" URL="../Vision Code/Support/Separate Particles.vi"/>
-			<Item Name="Set LED Indicator.vi" Type="VI" URL="../Set LED Indicator.vi"/>
-			<Item Name="Set LED Main.vi" Type="VI" URL="../Set LED Main.vi"/>
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Vision Code/Support/Sorted Particle Report.vi"/>
 			<Item Name="TargetType.ctl" Type="VI" URL="../Vision Code/Support/TargetType.ctl"/>
 		</Item>
