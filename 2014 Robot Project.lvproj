@@ -129,6 +129,7 @@ DirectoryIndex index.htm
 			<Item Name="Set Arm Mode.vi" Type="VI" URL="../Arm Code/Set Arm Mode.vi"/>
 			<Item Name="Arm Mode Control.vi" Type="VI" URL="../Arm Code/Arm Mode Control.vi"/>
 			<Item Name="Safe Stop.vi" Type="VI" URL="../Arm Code/Safe Stop.vi"/>
+			<Item Name="Drop.vi" Type="VI" URL="../Arm Code/Drop.vi"/>
 		</Item>
 		<Item Name="Drive Code" Type="Folder">
 			<Item Name="Rotation.vi" Type="VI" URL="../Drive Code/Rotation.vi"/>
